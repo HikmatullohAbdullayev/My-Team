@@ -10,14 +10,7 @@
     text-align: center;
 }
 .deliver__title {
-    margin: auto;
-    max-width: 932px;
-    color: #FFF;
-font-size: 48px;
-font-weight: 700;
-line-height: 48px; 
-}
-.deliver__span {
+    @include title_deliver
 }
 .deliver__content {
     display: flex;
@@ -44,10 +37,7 @@ line-height: 48px;
 
 }
 .deliver__text {
-    color: #FFF;
-font-size: 15px;
-font-weight: 600;
-line-height: 25px; 
+    @include text_dliver
 }
 .deliver__name {
     margin-top: 24px;
@@ -75,15 +65,11 @@ line-height: 18px;
     }
 
     .deliver__title{
-        max-width: 550px;
-font-size: 32px;
-line-height: 32px; 
+        @include title_deliver
     }
 
     .deliver__text{
-        max-width: 500px;
-font-size: 15px;
-line-height: 25px; 
+        @include text_dliver
     }
     
 }
